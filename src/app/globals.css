@@ -1,0 +1,212 @@
+.navbar {
+  list-style: none;
+  gap: 20px;
+  display: flex;
+  margin-right: 20px;
+  margin-top: 28px;
+
+
+
+}
+
+.nav-btn {
+  color: black;
+}
+
+.nav-btn:hover {
+  color: rgb(248, 158, 23);
+  transition-duration: 0.4s;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#portfolio {
+  margin-left: 20px;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#portfolio span {
+  color: rgb(248, 158, 23)
+}
+
+.header {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ============hero============== */
+.heroSection {
+  display: flex;
+  text-align: center;
+  /* justify-content: space-between; */
+  margin-top: 90px;
+}
+
+.heroText {
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 80px;
+  margin-top: 50px;
+  /* padding: 20px; */
+
+}
+
+.heroText p {
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 30px;
+  /* padding: 20px; */
+  color: rgb(96, 86, 86);
+}
+
+.heroText b {
+  color: rgb(248, 158, 23);
+}
+
+
+.heroPic {
+  margin-right: 160PX;
+
+  margin-bottom: 20px;
+  margin-left: 400px;
+  /* padding: 20px; */
+
+
+  box-shadow: 0px 1px 20px 1px rgb(248, 158, 23);
+
+
+}
+
+.button {
+  margin-right: 15px;
+  padding: 11px;
+  font-size: 14px;
+  margin-top: 10px;
+  background-color: rgb(248, 158, 23);
+  color: white;
+  border-radius: 17px;
+  border-color: rgb(248, 158, 23);
+  transition-duration: 0.6s;
+}
+
+.button:hover {
+  background-color: white;
+  color: rgb(248, 158, 23);
+}
+
+
+/* ==============projects======= */
+.project-container {
+  display: flex;
+  text-align: center;
+  margin-top: 80px;
+
+
+
+}
+
+.project-text {
+  text-align: center;
+  margin-top: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.project-text span {
+  color: rgb(248, 158, 23);
+}
+
+.cards {
+  padding-top: 9px;
+  /* margin-right: px; */
+  border: 200px;
+  /* border-color: black; */
+  box-shadow: 0 2px 4px rgb(143, 141, 140);
+  color: rgb(96, 86, 86);
+  margin-left: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 30px;
+}
+
+.cards button {
+  padding: 11px;
+  font-size: 14px;
+  margin-top: 10px;
+  background-color: rgb(248, 158, 23);
+  color: white;
+  border-radius: 17px;
+  border-color: rgb(248, 158, 23);
+  transition-duration: 0.6s;
+}
+
+.cards button:hover {
+  background-color: white;
+  color: rgb(248, 158, 23);
+}
+
+
+/* ==================ABOUT=============== */
+
+.about {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.about-text {
+  text-align: center;
+  font-size: larger;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 10px;
+}
+
+.about-text span {
+  color: rgb(248, 158, 23);
+}
+
+.about span {
+  color: rgb(248, 158, 23);
+}
+
+/* ===========================CONTACT========== */
+.contact {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 120px;
+
+}
+
+.contact-text {
+  text-align: center;
+  font-size: larger;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 10px;
+}
+
+.contact-sec span {
+  color: rgb(248, 158, 23);
+
+}
+
+.forms {
+  margin-top: 30px;
+  margin-left: 300px;
+  /* margin: 0px; */
+  width: 50%;
+
+
+  box-shadow: 0 2px 4px rgb(143, 141, 140);
+  /* margin-left:1px; */
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
